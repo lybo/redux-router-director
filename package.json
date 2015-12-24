@@ -1,7 +1,7 @@
 {
   "name": "redux-router-director",
   "version": "1.0.0",
-  "description": "router for reduc based on director",
+  "description": "router for redux based on director",
   "main": "./lib/index.js",
   "scripts": {
     "build": "babel --presets es2015,react src --out-dir lib",
@@ -26,5 +26,8 @@
     "react-dom": "^0.14.3",
     "react-redux": "^4.0.5",
     "redux": "^3.0.5"
+  },
+  "dependencies": {
+    "director": "^1.2.8"
   }
 }
