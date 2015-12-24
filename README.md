@@ -126,6 +126,11 @@ class Link extends Component {
 }
 export default Link;
 ```
+### TODO
+
+* Add tests
+* Add examples
+* Support html5 pushState()
 
 
 License
