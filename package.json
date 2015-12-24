@@ -1,0 +1,22 @@
+{
+  "name": "redux-router-director",
+  "version": "1.0.0",
+  "description": "router for reduc based on director",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "babel --presets es2015,react src --out-dir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-cli": "^6.3.17",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-redux": "^4.0.5",
+    "redux": "^3.0.5"
+  }
+}
